@@ -29,9 +29,10 @@ function calcular(){
     let qtdTotalBebidas = bebidas * adultos + (bebidas / 2 * criancas);
 
 
-    resultado.innerHTML = `<p>${qtdTotalCarne / 1000}kg de carne</p>`
-    resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} latas de cerveja</p>`
-    resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas / 2000)} garrafas de bebidas</p>`
+    resultado.innerHTML = `<h3>Para esse churrasco você vai precisar de:</h3>`
+    resultado.innerHTML += `<div class="resultShow"><img src="./assets/icons/meat.png"><p>${qtdTotalCarne / 1000} kg de carne</p></div>`
+    resultado.innerHTML += `<div class="resultShow"><img src="./assets/icons/beer_one.png"><p>${Math.ceil(qtdTotalCerveja / 355)} latas de cerveja</p></div>`
+    resultado.innerHTML += `<div class="resultShow"><img src="./assets/icons/drink.png"><p>${Math.ceil(qtdTotalBebidas / 2000)} garrafas de bebidas</p></div>`
 
 }
 
