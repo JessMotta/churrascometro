@@ -9,6 +9,17 @@ p {
   text-align: center;
 }
 
+.containerInfo {
+  /* height: 100vh; */
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  /* display: inline-block; */
+  overflow: hidden;
+  float: left;
+}
+
 .containerData {
   height: 660px;
   width: 350px;
@@ -20,21 +31,6 @@ p {
   /* display: inline-block; */
   overflow: hidden;
   float: right;
-}
-
-#logo {
-  width: 22rem;
-}
-
-.containerInfo {
-  /* height: 100vh; */
-  width: 1000px;
-  margin: auto;
-  padding: 20px;
-  border-radius: 10px;
-  /* display: inline-block; */
-  overflow: hidden;
-  float: left;
 }
 
 input {
@@ -68,14 +64,12 @@ input {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+  cursor: pointer;
 }
 
 #calcular:hover {
   background-color: white;
   color: #fd5f06;
-}
-#resultado {
-  font-weight: bold;
 }
 
 .images {
@@ -83,18 +77,48 @@ input {
   margin-left: 20px;
 }
 
-/* css vindo do scrip.js */
+.logo {
+  width: 100%;
+  margin: auto;
+}
+
+/* css vindo do script.js */
 
 .resultShow {
   display: flex;
   align-items: center;
   margin: 0.5rem;
+  font-weight: bold;
 }
 
 .resultShow p {
   text-align: center;
 }
 
-.paragraph{
-    margin-left: 1rem;
+.paragraph {
+  margin-left: 1rem;
+}
+
+/* responsividade para mobile */
+@media (max-width: 700px) {
+  .containerInfo {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .images {
+    width: 90%;
+    display: inline-block;
+  }
+
+  .logo {
+    width: 100%;
+    margin: auto;
+  }
+
+  .containerData {
+    width: 90%;
+    margin-top: 2rem;
+    margin: auto;
+  }
 }

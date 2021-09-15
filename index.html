@@ -21,20 +21,21 @@
 
     </div>
     <div class="containerData">
-        <img id="logo" src="./assets/images/churrascometro_logo.png">
+        <img class="logo" src="./assets/images/churrascometro_logo.png">
+
         <p>Quantidade de adultos</p>
         <input type="number" name="adultos" id="adultos" placeholder="Adultos">
         <p>Quantidade de crianças</p>
         <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-        <p>Duração do churrasco</p>
+        <p>Duração do churrasco (em horas)</p>
         <input type="number" name="duracao" id="duracao" placeholder="Duração">
         <button id="calcular" onclick="calcular()">Calcular</button>
 
-
-        <div id="resultado">
-
-        </div>
+        <!-- div onde serão exibidos os resultados -->
+        <div id="resultado"></div>
     </div>
+
+    <!-- chamando o javascript -->
     <script src="./scripts/script.js"></script>
 
 
