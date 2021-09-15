@@ -80,6 +80,7 @@ input {
 
 .images {
   max-width: 800px;
+  margin-left: 20px;
 }
 
 /* css vindo do scrip.js */
@@ -92,4 +93,8 @@ input {
 
 .resultShow p {
   text-align: center;
+}
+
+.paragraph{
+    margin-left: 1rem;
 }
