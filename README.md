@@ -36,5 +36,5 @@ Obs.: as crianças valem por meia pessoa
 - JavaScript
                                   
                                   
-## Licença
+## Licença :scroll:	
 Projeto sob a licença do MIT.
