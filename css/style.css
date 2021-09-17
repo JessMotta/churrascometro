@@ -15,11 +15,29 @@ p {
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  /* display: inline-block; */
+  display: inline-block;
   overflow: hidden;
   float: left;
 }
 
+.images {
+  max-width: 800px;
+  margin-left: 20px;
+}
+
+.youtube{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.youtube p{
+  margin-left: 10px;
+  font-weight: bold;
+  
+}
 .containerData {
   height: 660px;
   width: 350px;
@@ -72,10 +90,12 @@ input {
   color: #fd5f06;
 }
 
-.images {
-  max-width: 800px;
-  margin-left: 20px;
+.button_calcular{
+  margin: auto;
+  display: inline-block;
 }
+
+
 
 .logo {
   width: 100%;
@@ -98,6 +118,7 @@ input {
 .paragraph {
   margin-left: 1rem;
 }
+
 
 /* responsividade para mobile */
 @media (max-width: 700px) {
