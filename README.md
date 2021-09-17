@@ -15,7 +15,7 @@ Esse projeto foi realizado como parte do curso Desenvolvimento Full Stack e  tev
   
   
   
-![churrascometro_readme](https://user-images.githubusercontent.com/30941796/133677164-12f1e455-3900-408b-8a07-59c137f66ffe.png)
+![churrascometro_readme3](https://user-images.githubusercontent.com/30941796/133838236-86ded47a-17e6-470b-8aa2-6664c9c0413e.png)
 
 
 
